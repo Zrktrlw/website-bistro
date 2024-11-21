@@ -1,5 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inconsolata&pause=1000&color=B30000&width=435&lines=Hello%2C+I'm+Z%C3%BCmre%2C+I'm+a+Frontend+Developer.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inconsolata&pause=1000&color=FF02BE&width=435&lines=Hello%2C+I'm+Z%C3%BCmre%2C+I'm+a+Frontend+Developer.)](https://git.io/typing-svg)
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/in/Zümre-Atanak) 
