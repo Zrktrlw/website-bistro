@@ -37,7 +37,7 @@ header {
     margin: 10px 0 0 150px;
 }
 
-.call,.mail i {
+.call, .mail i {
     font-size: 18px;
 }
 
@@ -225,7 +225,7 @@ header {
     border: none;
 }
 
-.hero-btn  {
+.hero-btn {
     text-decoration: none;
     color: #2C2F24;
     font-family: "DM Sans", sans-serif;
@@ -377,7 +377,7 @@ header {
 .hp-about {
     width: 100%;
     height: 900px;
-    background:#F9F9F7 ;
+    background: #F9F9F7;
 }
 
 .about-content {
@@ -386,7 +386,7 @@ header {
     display: inline-flex;
     align-items: center;
     gap: 150px;
-    margin:120px 303px 120px 303px;
+    margin: 120px 303px 120px 303px;
 }
 
 .about-img-card {
@@ -398,7 +398,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     border-radius: 12px;
-    background:#DBEAFE ;
+    background: #DBEAFE;
 }
 
 .about-img img {
@@ -481,10 +481,10 @@ header {
 
 .text-title h2 {
     font-size: 55px;
-    font-family: "Playfair Display",sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-weight: 500;
     line-height: 60.5px;
-    color:#2C2F24 ;
+    color: #2C2F24;
     margin-bottom: 24px;
 }
 
@@ -503,25 +503,25 @@ header {
 
 }
 
-.title-p-1 , .title-p-2 {
+.title-p-1, .title-p-2 {
     margin-bottom: 24px;
 }
 
 .about-btn {
     display: flex;
-    padding:20px 32px;
+    padding: 20px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 118px;
-    border: 1px solid#2C2F24 ;
+    border: 1px solid #2C2F24;
     cursor: pointer;
     background: #F9F9F7;
 }
 
-.about-btn  {
+.about-btn {
     background: #F9F9F7;
-    font-family: "DM Sans",sans-serif ;
+    font-family: "DM Sans", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -529,8 +529,8 @@ header {
     transition: 0.3s ease;
 }
 
-.about-btn  {
-    color:#182226 ;
+.about-btn {
+    color: #182226;
     transition: 0.3s ease;
 }
 
@@ -553,10 +553,10 @@ header {
 
 .service-content {
     display: inline-flex;
-    background:#FFF;
+    background: #FFF;
     width: 1296px;
     height: 628px;
-    margin:120px 303px 120px 303px;
+    margin: 120px 303px 120px 303px;
     flex-direction: column;
     align-items: flex-start;
     gap: 64px;
@@ -625,7 +625,7 @@ header {
     width: 100%;
     max-width: 1296px;
     height: 627px;
-    padding:120px 303px 120px 303px;
+    padding: 120px 303px 120px 303px;
 }
 
 .content-img {
@@ -739,6 +739,158 @@ header {
     margin-left: 10px;
     margin-top: -30px;
 }
+
+/* testimonial */
+
+.hp-testimonial {
+    width: 100%;
+    height: 700px;
+    background: #FFFFFF;
+}
+
+.testimonial-content {
+    width: 100%;
+    max-width: 1296px;
+    height: 533px;
+    display: grid;
+    gap: 64px;
+    margin: 120px 303px 0 303px;
+
+}
+
+.title-testimonial h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    line-height: 60.5px;
+    color: #2C2F24;
+    font-weight: 500;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.card-testimonial {
+    display: flex;
+    width: 1296px;
+    height: 408px;
+    column-gap: 24px
+}
+
+.card-testimonial-item {
+    width: 416px;
+    height: 408px;
+    background: #F9F9F7;
+    border-radius: 15px;
+}
+
+.card-content-testimonial {
+    width: 346px;
+    height: 328px;
+    display: grid;
+    margin: 40px 34px 0 34px;
+    gap: 32px;
+}
+
+.card-content-testimonial h3 {
+    width: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.72px;
+    line-height: 30px;
+    color: #AD343E;
+}
+
+.card-content-testimonial p {
+    font-size: 18px;
+    width: 346px;
+    height: 140px;
+    line-height: 28px;
+    color: #414536;
+}
+
+.card-content-testimonial hr {
+    width: 346px;
+    height: 1px;
+    border: 0.5px solid #DBDFD0;
+
+}
+
+.card-user-testimonial {
+    width: 211px;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-user-text-testimonial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-user-text-testimonial h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    width: 150px;
+}
+
+.card-user-text-testimonial span {
+    width: 150px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* blog */
+
+.hp-blog {
+    width: 100%;
+    height: 1110px;
+    background: #F9F9F7;
+}
+
+.blog-content {
+    width: 100%;
+    max-width: 1296px;
+    height: 860px;
+    margin: 0 303px 0 303px;
+    padding-top: 120px;
+}
+
+.title-blog {
+    width: 1296px;
+    height: 64px;
+    display: flex;
+}
+
+.title-blog h2 {
+    font-size: 55px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    line-height: 60.5px;
+    text-align: left;
+}
+
+.blog-btn {
+    padding: 20px 32px;
+    border-radius: 118px;
+    background: #AD343E;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 600px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.blog-btn:hover {
+    background: #bdbdbd;
+    color: #2C2F24;
+}
+
 
 /* footer */
 
